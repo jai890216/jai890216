@@ -9,7 +9,7 @@
 - **Accuracy:** 프롬프트 엔지니어링 및 피드백 루프를 통해 **90% 이상의 정확도** 달성 
 
 ## 🖼️ Visualization (UI)
-
+회사 보안 정책 상 시각화 자료를 업로드 하지 못합니다
 
 ## ⚙️ Technical Workflow
 ```mermaid
