@@ -18,3 +18,26 @@ graph LR
     B --> C[JSON Structuring via Pydantic]
     C --> D[Data Visualization Dashboard]
     D --> E[Human Feedback Loop]
+```
+
+# 🛠️ Domain-Specific Entity Extraction Pipeline
+
+## 💡 Project Overview
+비정형 유지보수 기록에서 반도체 도메인 특화 엔티티를 자동으로 추출하고 정규화하여 **온톨로지 기반의 지식 자산**으로 변환하는 파이프라인입니다. 
+
+## 🚀 Key Value
+- **Assetization:** 산재된 비정형 데이터를 실행 가능한 조직의 지식 자산(Knowledge Assets)으로 구조화 
+- **Technology:** Vector RAG와 LLM을 결합하여 고도화된 엔티티 추출 및 정규화 수행 
+
+## 🖼️ Pipeline UI / Process
+※ 보안 정책에 따라 민감 정보는 마스킹 처리되었습니다.
+
+
+## ⚙️ Architecture
+```mermaid
+graph TD
+    A[Raw Maintenance Records] --> B(Vector RAG Retrieval)
+    B --> C{LLM Entity Extraction}
+    C --> D[Normalization & Structuring]
+    D --> E[Ontology-Driven Knowledge Base]
+``` 
